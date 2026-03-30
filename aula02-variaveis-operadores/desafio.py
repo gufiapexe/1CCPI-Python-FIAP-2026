@@ -1,4 +1,6 @@
-datanascimento = input('que dia você nasceu?')
-mesnascimento = input('qual mês você nasceu?')
-anonascimento = input('qual ano você nasceu?')
-print(f'Nasceu em {datanascimento}/{mesnascimento}/{anonascimento}')
+from fontTools.misc.cython import returns
+base = 20
+altura = 2
+def calculo_basico (base, altura):
+    return base / altura
+

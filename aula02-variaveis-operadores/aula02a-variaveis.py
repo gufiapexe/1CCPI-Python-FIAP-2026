@@ -6,11 +6,9 @@ idade = ('17')
 peso = ('72')
 print(nome, idade, peso)
 
-nome = input('Qual o seu nome?')
-idade = input('quantos anos você tem?')
-peso = input ('quanto você pesa?')
-print (nome,idade,peso)
-
-print (f'Olá' + nome)
+nome = input('Qual o seu nome?').strip()
+idade = input('quantos anos você tem?').strip()
+peso = input ('quanto você pesa?').strip()
+print (f'Olá {nome} você tem {idade} e pesa {peso}')
 
 
